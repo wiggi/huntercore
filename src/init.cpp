@@ -298,6 +298,7 @@ void OnRPCStopped()
     uiInterface.NotifyBlockTip.disconnect(&RPCNotifyBlockChange);
     RPCNotifyBlockChange(false, nullptr);
     cvBlockChange.notify_all();
+    cv_stateChange.notify_all();
     LogPrint("rpc", "RPC stopped.\n");
 }
 
