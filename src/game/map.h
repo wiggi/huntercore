@@ -27,7 +27,7 @@ static const int CROWN_START_X = 250;
 static const int CROWN_START_Y = 248;
 
 // for FORK_TIMESAVE
-extern unsigned char SpawnMap[MAP_HEIGHT][MAP_WIDTH];
+extern const unsigned char SpawnMap[MAP_HEIGHT][MAP_WIDTH];
 #define SPAWNMAPFLAG_BANK 1
 #define SPAWNMAPFLAG_PLAYER 2
 #define CHARACTER_MODE_NORMAL 6
